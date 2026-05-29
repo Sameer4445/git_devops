@@ -1,0 +1,1 @@
+print("docker compose working")

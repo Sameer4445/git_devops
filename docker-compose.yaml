@@ -1,0 +1,10 @@
+services:
+  app:
+    build: . 
+    container_name: app-container
+    command: sleep 1000
+  test:
+    image: ubuntu
+    container_name: test-container
+    tty: true
+    stdin_open: true
